@@ -1,0 +1,69 @@
+<!doctype html/>
+<html>
+	<head>
+		<meta charset="ISO 8859-2" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="css/style.css" >
+		<link rel="stylesheet" href="css/plonge.css" >
+		<title>Plonge-Plonge</title>
+	</head>
+	
+	<body class="bg-dark">
+		<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand ms-5 text-warning" href="#"><strong>PAGE DES JEUX</strong></a>
+            
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="fruit.html">Tir-Fruit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="helico.html">Helico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Plongeur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calcul.html">Calcul</a>
+              </li>
+            </ul>
+          </nav>
+			<div id="divpage" style="background:url('image/plonge/eau.jpg');" class="mt-5"> 
+				<img id="plonge1" class="plonge" src="image/plonge/stansA.png"><img>
+				<img id="plonge2" class="plonge" src="image/plonge/stansB.png"><img>
+				<img id="plonge3" class="plonge" src="image/plonge/stansC.png"><img>
+				<P id="rangA">A</P>
+				<P id="rangB">B</P>
+				<P id="rangC">C</P>
+				<span id="outil">Plongeur ?</span>				
+				<div class="divchild">
+					<p class="question">Qui allez-vous supporter?</p>
+					<p class="choix"><input type="radio" id="plongeurA" name="radio" checked=true>   Plongeur A</input></p>
+					<p class="choix"><input type="radio" id="plongeurB" name="radio">   Plongeur B</input></p>
+					<p class="choix"><input type="radio" id="plongeurC" name="radio">   Plongeur C</input></p>
+					<p class="choix" ><button id="commencer">COMMENCER</button></input></p>
+				</div>
+				<div id="result">
+					<p class="question" id="resultat">Vous avez gagnez!</p>
+					<p class="choix"><a href="plonge.html"><button id="recommencer">RECOMMENCER</button></a></p>
+				</div>
+			</div>
+		</section>
+
+        <footer>
+            <div class="container mt-5" style="width:800px;">
+                <div class="alert alert-info">
+                    <i><strong>Comment jouer? </strong>Choisir un plongeur au hasard, on verra s'il va gagner!</i>
+                </div>
+            </div>
+            <div class="container text-center text-secondary">
+                <p>@NorrisITefy<br>initiation JQuery [2020]</p>
+            </div>
+        </footer>
+
+		<script src="script/jquery.js"></script>
+		<script src="script/plonge.js"></script>
+		
+	</body>
+</html>

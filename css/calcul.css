@@ -1,0 +1,129 @@
+td
+{
+	border:5px solid black;
+	width:80px;
+	height:80px;
+	text-align:center;
+	font-size:50px;
+	border-radius:10px;
+}
+
+table
+{
+	margin:20px;
+	display:inline-block;
+}
+
+button
+{
+	margin-left:15px;
+	width:270px;
+	height:30px;
+	font-weight:bold;
+}
+
+input[type="text"]
+{
+	width:100px;
+	height:80px;
+	font-size:50px;
+	text-align:center
+}
+
+#header
+{
+	background-color:rgb(0,64,128);
+	border:1px solid black;	
+	padding:2px;
+	padding-left:5px;
+}
+
+#nav
+{
+	margin-bottom:20px;
+	z-index:2;
+	width:auto;
+	height:25px;
+	border:1px solid black;
+	background-color:rgb(200,203,196);
+	z-index:3;
+}
+
+
+#divpage
+{
+	z-index:0;
+	background-color:rgb(220,220,220);
+	position:relative;
+	margin:auto;
+	height:450px;
+	width:800px;
+	border:1px black solid;
+	overflow:hidden;
+	box-shadow:10px 0px 10px black;
+}
+
+
+
+#blocktitre
+{
+	width:800px;
+	background:rgb(200,203,196);
+	margin:auto;
+	border:1px solid black;
+}
+
+#titre
+{
+	font-family:Times New Roman;
+	font-size:25px;
+	text-align:center;	
+}
+
+#outil
+{
+	margin-top:15px;
+	display:inline-block;
+	vertical-align:top;
+	width:300px;
+	height:420px;
+	background-color:rgb(200,200,200);
+	border:3px solid black;
+}
+
+#casetemps
+{
+	width:300px;
+	height:170px;
+	background-color:rgba(0,0,255,0.4);
+	padding-top:30px;;
+}
+
+#temps
+{
+	font-size:50px;
+	text-align:center;
+	border:3px solid black;
+	margin:35px;
+}
+
+#changer, #off
+{
+	border: 3px solid black;
+	border-radius:50px;
+	font-size:20px;
+	background-color:grey;
+}
+
+.signe
+{
+	border-width:0px;
+	width:50px;
+	height:50px;
+}
+
+.result
+{
+	background-color:rgba(255,0,0,0.4);
+	width:100px;
+}
